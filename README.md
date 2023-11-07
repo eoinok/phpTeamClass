@@ -5,8 +5,8 @@ Clone this repo into your www folder under laragon. In the command prompt, cd in
 This lab includes a number of steps to create a new PHP class to control football Teams and their results. By the end of this lab students will be able to:
 
 - create a PHP class from a UML description
-- Take values from a HTML form and use them to instantiate the Team class
-- use the methods of the Team class to process data relating to the Team
+- Take values from a HTML form and use them to instantiate a PHP class
+- use the methods of a PHP class to process data relating to the class
 
 # Part 1
 
