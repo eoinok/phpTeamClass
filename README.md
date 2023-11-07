@@ -10,12 +10,12 @@ This lab includes a number of steps to create a new PHP class to control footbal
 
 # Part 1
 
-Create a PHP file containing the following UML class. Assume the constructor takes the team name as a parameter. The finalScore method indicates the score of a match played against an opposing team. The first parameter of the final score method indicates the team's score in the game. The second parameter indicates the opposing team's score. Using this method it is possible to calculate whether the Team won lost or draw. Based on this, the finalScore method should add three points to the total points if the team won. One point should be added for a draw and no points should be added for a loss. In addition to calculating points, the finalScore method should add the goals scored (from the first parameter) to the totalsGoals attribute. The finalScore method should also increase the totalGames by one (**hint use += to add one to the value stored in a variable**)
+Create a PHP file containing the following UML class. Assume the constructor takes the team name as a parameter. The finalScore method indicates the score of a match played against an opposing team. The first parameter of the final score method indicates the home team's score in the game. The second parameter indicates the opposing team's score. Using this method it is possible to calculate whether the home Team won lost or drew. Based on this, the finalScore method should add three points to the total points if the team won. One point should be added for a draw, and no points should be added for a loss. In addition to calculating points, the finalScore method should add the goals scored (from the first parameter) to the totalsGoals attribute. The finalScore method should also increase the totalGames by one (**hint use += operator to add one to the value stored in a variable**)
 
 ![A UML description of Team.php class](./TeamUML.jpg)
 
-Remember you must use the $this variable together with the arrow operator when accessing class variables from within the methods of the class. See the slides on this.
-When you have completed the Team.php class save it to your repo folder and test it using the teamTester.php program. To do this type ***php teamTester.php*** into the command line.
+Remember you must use the **$this** variable together with the **arrow operator** when accessing class variables from within the methods of the class. See the slides on this.
+When you have completed the Team.php class save it to your repo folder and test it using the teamTester.php program. To do this type ***php teamTester.php*** into the Command Line Interface.
 
 # Part 2
 
