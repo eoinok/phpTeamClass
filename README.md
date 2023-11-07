@@ -11,3 +11,4 @@ This lab includes a number of steps to create a new PHP class to control footbal
 # Part 1
 
 Create a PHP file containing the following UML class
+![Team.jpg]
