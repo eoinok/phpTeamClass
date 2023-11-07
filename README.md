@@ -15,7 +15,7 @@ Create a PHP file containing the following UML class. Assume the constructor tak
 ![A UML description of Team.php class](./TeamUML.jpg). 
 
 Remember you must use the $this variable together with the arrow operator when accessing class variables from within the methods of the class. See the slides on this.
-When you have completed the Team.php class save it to your repo folder and test it using the PHP tester class. To do this type ***blah blah blah*** into the Command Line Interface. 
+When you have completed the Team.php class save it to your repo folder and test it using the teamTester.php program. To do this type php teamTester.php into the command line.
 
 # Part 2
 
@@ -27,7 +27,9 @@ The goal average should merely return the average number of goals scored so far 
 
 # Part 3
 
-The html file matchResults.html gets the results of three different fixtures and passes them to a program called processScores.php using the get method. Create this file called processScores.php and add it to your repo. The file should gather the teamName submitted by the user and assign it to a simple PHP variable. This variable should be used to instantiate a Team.php class and assign it to a PHP variable called $homeTeam. In order to do this you must first use the include statement to include the code from Team.php in your class. Once you have instantiated the object you will need to call the finalScore method against your $homeTeam variable three separate times for each of the three separate results. Hint use the arrow operator as follows $homeTeam->finalSore($ht1,$at1); three separate times for each of the three separate results. Replace the $ht1, and $at1 arguments with the simple PHP variables you have used to store the home team and away team scores.
+The html file matchResults.html gets the results of three different fixtures and passes them to a program called processScores.php using the get method. Create this file called processScores.php and add it to your repo. The file should gather the teamName submitted by the user and assign it to a simple PHP variable. This variable should be used to instantiate a Team.php class and assign it to a PHP variable called $homeTeam. In order to do this you must first use the include statement to include the code from Team.php in your class. Once you have instantiated the object you will need to call the finalScore method against your $homeTeam variable three separate times for each of the three separate results. ***Hint use the arrow operator as follows $homeTeam->finalSore($ht1,$at1); three separate times for each of the three separate results. Replace the $ht1, and $at1 arguments with the simple PHP variables you have used to store the home team and away team scores***
+
+When you have added each of the three match results, echo the goal average of the Team to the screen by calling the getGoalaverage() function on the $homeTeam variable. Is the average correct? for example if the user entered that the home team scored 3 goals in the first game, 2 in the second and 1 in the third the average should be 2. 
 
 
 
