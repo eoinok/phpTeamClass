@@ -27,6 +27,9 @@ The goal average should merely return the average number of goals scored so far 
 
 # Part 3
 
+The html file matchResults.html gets the results of three different fixtures and passes them to a program called processScores.php using the get method. Create a file called processScores.php and add it to your repo. The file should gather the teamName submitted by the user and assign it to a simple PHP variable. This variable should be used to instantiate a Team.php class and assign it to a PHP variable called $homeTeam. In order to do this you must first use the include statement to include the code from Team.php in your class. Once you have instantiated the object you will need to call the finalScore method against your $homeTeam variable (using the arrow operator) three separate times for each of the three separate results.
+
+
 
 
 
