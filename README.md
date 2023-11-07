@@ -15,7 +15,7 @@ Create a PHP file containing the following UML class. Assume the constructor tak
 ![A UML description of Team.php class](./TeamUML.jpg)
 
 Remember you must use the $this variable together with the arrow operator when accessing class variables from within the methods of the class. See the slides on this.
-When you have completed the Team.php class save it to your repo folder and test it using the teamTester.php program. To do this type php teamTester.php into the command line.
+When you have completed the Team.php class save it to your repo folder and test it using the teamTester.php program. To do this type ***php teamTester.php*** into the command line.
 
 # Part 2
 
@@ -23,7 +23,7 @@ Add a method called getGoalAverage() to your class as follows
 
 ![A UML description of a Team class with a getGoalAverage function](./TeamUMLwithGoalAverage.jpg)
 
-The goal average should merely return the average number of goals scored so far this season. This is the total number of goals divided by the total number of games. Bear in mind that these figures are available as attributes of the class but to access them you must use $this together with the arrow operator.
+The goal average should merely return the average number of goals scored so far this season. This is the total number of goals divided by the total number of games. Bear in mind that these figures are available as attributes of the class but to access them you must use $this together with the arrow operator.  To test Part 2 type ***php testPart2.php*** into the command line, if your code is correct you should get a goal average of 2.
 
 # Part 3
 
