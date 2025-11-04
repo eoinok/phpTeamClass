@@ -1,12 +1,19 @@
 # Week 6 Lab
 
-Clone this repo into your www folder under laragon. In the command prompt, cd into the \laragon\www folder. Make sure that you are in the correct folder and that laragon\www appears in the command prompt. Type git clone your-repo-url (Get your repo url from github after creating the repo). Then cd into the folder you have just cloned by typing cd week6Lab-yourgithubid. Once you are in the correct folder, keep this command window open so you can type in your git commands as required.
+Clone this repo into your documents folder. In the command prompt, cd into the repo folder (e.g. c:\users\B00123456\documents\week6lab-yourgithubid). Make sure that you are in the correct folder and that the full path appears in the  command prompt. Once you are in the correct folder, keep this command window open so you can type in your git commands as required. 
+
+Open another command window in order to start your Webserver. cd into your repo folder and make sure the correct path appears in the command prompt (e.g. c:\users\B00123456\documents\week6lab-yourgithubid). To start the web server type
+```
+php -S localhost:8080 -t ./
+```
 
 This lab includes a number of steps to create a new PHP class to control football Teams and their results. By the end of this lab students will be able to:
 
 - create a PHP class from a UML description
 - Take values from a HTML form and use them to instantiate a PHP class
 - use the methods of a PHP class to process data relating to the class
+
+There is no database interaction required by this lab.
 
 # Part 1
 
