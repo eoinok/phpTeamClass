@@ -1,4 +1,4 @@
-# Week 6 Lab
+# Lab Implement a PHP Class from a UML Class definition and use it to generate and use PHP Objects
 
 Clone this repo into your documents folder. In the command prompt, cd into the repo folder (e.g. c:\users\B00123456\documents\week6lab-yourgithubid). Make sure that you are in the correct folder and that the full path appears in the  command prompt. Once you are in the correct folder, keep this command window open so you can type in your git commands as required. 
 
